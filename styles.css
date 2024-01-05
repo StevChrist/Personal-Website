@@ -808,7 +808,7 @@ span {
   width: 65%;
 }
 
-/* Skills */
+/* Work */
 .slider {
   height: 250px;
   margin: auto;
@@ -901,6 +901,13 @@ img:hover{
   }
   100% {
     transform: translateX(calc(-250px * 24));
+  }
+}
+
+@media (max-width: 768px) {
+  .slider .slide,
+  .slider2 .slide-picture {
+    flex: 0 0 33.33%;
   }
 }
 
@@ -1209,82 +1216,5 @@ img:hover{
 @keyframes aboutSpinner {
   100%{
     transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-
-/* Tablets */
-@media (max-width: 991px) {
-  .header {
-    padding: 2rem 4%;
-  }
-
-  section {
-    padding: 10rem 4% 2rem;
-  }
-
-  .home {
-    padding: 0 4%;
-  }
-
-  .footer {
-    padding: 2rem 4%;
-  }
-}
-
-/* Mobile Phones */
-@media (max-width: 768px) {
-  .header {
-    background: var(--bg-color);
-  }
-
-  #menu-icon {
-    display: block;
-  }
-
-  .navbar {
-    /* Adjust styles for mobile navigation */
-  }
-
-  .home-imgHover {
-    pointer-events: none;
-    background: var(--bg-color);
-    opacity: 0.6;
-  }
-}
-
-/* Small Mobile Phones */
-@media (max-width: 520px) {
-  html {
-    font-size: 50%;
-  }
-
-  .home-content h1 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .home-sci {
-    width: 160px;
-  }
-
-  .home-sci a {
-    width: 38px;
-    height: 38px;
-  }
-}
-
-/* Smallest Mobile Phones */
-@media (max-width: 371px) {
-  .home {
-    justify-content: center;
-  }
-  .home-content {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-  }
-  .home-content h1 {
-    font-size: 5rem;
   }
 }
