@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steven Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+
+  <body>
+    <!-- Loading Screen -->
+    <div class="loading-modal">
+      <div class="modal-content">
+        <div class="main-content">
+          <div class="man">
+            <div class="body">
+              <span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+              <div class="base">
+                <span></span>
+                <div class="face"></div>
+              </div>
+            </div>
+            <div class="longfazers">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          Launching the site...<br />
+          <div class="motivational-quote"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Background Video -->
+    <video autoplay loop muted plays-inline class="back-video">
+      <source src="Image/Signature Animation.mp4" type="video/mp4" />
+    </video>
+
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Steven.</a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">My Work</a>
+        <a href="#contact">Contact</a>
+
+        <span class="active-nav"></span>
+      </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home show-animate" id="home">
+      <div class="home-content">
+        <h1>Hi, I,m <span>Steven</span></h1>
+        <div class="text-animate">
+          <h3>
+            I'm an
+            <span
+              class="typed"
+              data-typed-items="Data Science Student, Graphic Designers, Video Editor and Animation"
+            ></span>
+          </h3>
+        </div>
+        <p>
+          Hello, I am Steven Immanuel C Girsang. I am a Data Science
+          Undergraduate Student. I like many things and because of that I have
+          many projects and works that I have worked on, such as graphic design,
+          video editing and many more. you can see it to know more.
+        </p>
+
+        <div class="btn-box">
+          <a href="#work" class="btn">My Work</a>
+          <a href="#about" class="btn">About Me</a>
+        </div>
+      </div>
+
+      <div class="home-sci">
+        <a href="https://www.linkedin.com/in/steven-christiano-a50850258/"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://www.instagram.com/_stev.chris/"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a href="https://twitter.com/_Stevchris"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+      </div>
+    </section>
+
+    <!-- about section design-->
+    <section class="about" id="about">
+      <h2 class="heading">About <span>Me</span></h2>
+
+      <div class="about-img">
+        <img src="Image/Portofolio/Photography/photo 4.jpg" alt="" />
+        <span class="circle-spin"></span>
+      </div>
+
+      <div class="about-content">
+        <h3>Data Science Student at Telkom University</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ducimus
+          perspiciatis minima porro commodi nemo excepturi at dolor cumque
+          fugiat, eum tempore! Saepe molestiae suscipit minus quos nostrum
+          veritatis cupiditate.
+        </p>
+
+        <div class="btn-box btns">
+          <a href="t.me/stevenchristiano" class="btn">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section desing -->
+    <section class="education" id="education">
+      <h2 class="heading">My <span>Education</span></h2>
+
+      <div class="education-content">
+        <div class="education-item">
+          <h3>Kalam Kudus Christian Elementary School 2</h3>
+          <p>Year: 2010 - 2016</p>
+        </div>
+        <div class="education-item">
+          <h3>Kalam Kudus Junior High School</h3>
+          <p>Year: 2016 - 2019</p>
+        </div>
+        <div class="education-item">
+          <h3>Kalam Kudus High School</h3>
+          <p>Science Major</p>
+          <p>Year: 2019 - 2022</p>
+        </div>
+        <div class="education-item">
+          <h3>Telkom University</h3>
+          <p>S1 Data Science</p>
+          <p>Year: 2022 - Now</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section design -->
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <div class="skills-row">
+        <div class="skills-column">
+          <h3 class="title">Coding Skills</h3>
+          <div class="skills-box">
+            <div class="skills-content">
+              <div class="progress">
+                <h3>HTML <span>60%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>CSS <span>60%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Java Script <span>35%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Phyton <span>50%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>GoLanguage <span>60%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Java <span>56%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-column">
+          <h3 class="title">Design Skills</h3>
+          <div class="skills-box">
+            <div class="skills-content">
+              <div class="progress">
+                <h3>Adobe Photoshop <span>88%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Adobe After Effect<span>79%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Adobe Premier Pro <span>78%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Adobe Illustrator<span>85%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Canva<span>89%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+
+              <div class="progress">
+                <h3>Photography <span>65%</span></h3>
+                <div class="bar"><span></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Work section desing -->
+    <section class="work" id="work">
+      <h2 class="heading">My <span>Works</span></h2>
+      <div class="slider">
+        <div class="slide-track" id="slideTrack">
+          <div class="slide" id="slide1">
+            <video autoplay loop muted plays-inline class="slide-video">
+              <source
+                src="/Personal Website/Image/Portofolio/vid 1.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+          <div class="slide" id="slide2">
+            <video autoplay loop muted plays-inline class="slide-video">
+              <source
+                src="/Personal Website/Image/Portofolio/vid 2.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+          <div class="slide" id="slide3">
+            <video autoplay loop muted plays-inline class="slide-video">
+              <source
+                src="/Personal Website/Image/Portofolio/vid 3.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+          <div class="slide" id="slide4">
+            <video autoplay loop muted plays-inline class="slide-video">
+              <source
+                src="/Personal Website/Image/Portofolio/vid 4.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+
+          <!-- Double -->
+          <div class="slide" id="slide1">
+            <video autoplay loop muted plays-inline class="slide-video">
+              <source
+                src="/Personal Website/Image/Portofolio/vid 1.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+          <div class="slide" id="slide2">
+            <video autoplay loop muted plays-inline class="slide-video">
+              <source
+                src="/Personal Website/Image/Portofolio/vid 2.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+          <div class="slide" id="slide3">
+            <video autoplay loop muted plays-inline class="slide-video">
+              <source
+                src="/Personal Website/Image/Portofolio/vid 3.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+          <div class="slide" id="slide4">
+            <video autoplay loop muted plays-inline class="slide-video">
+              <source
+                src="/Personal Website/Image/Portofolio/vid 4.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </div>
+      </div>
+      <!-- Picture Slide -->
+      <div class="slider2">
+        <div class="slide-track2" id="pictureSlideTrack">
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/pic 1.jpg"
+              alt="Work 1"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/pic 2.jpg"
+              alt="Work 2"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/pic 3.jpg"
+              alt="Work 3"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/pic 4.jpg"
+              alt="Work 4"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/pic 5.jpg"
+              alt="Work 5"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/pic 6.jpg"
+              alt="Work 6"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/Photography/photo 1.jpg"
+              alt="Photography 1"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/Photography/photo 2.jpg"
+              alt="Photography 2"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/Photography/photo 3.jpg"
+              alt="Photography 3"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/Photography/photo 4.jpg"
+              alt="Photography 4"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/Photography/photo 5.jpg"
+              alt="Photography 5"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/Photography/photo 6.jpg"
+              alt="Photography 6"
+            />
+          </div>
+
+          <!-- double Picture Slide -->
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/pic 1.jpg"
+              alt="Work 1"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/pic 2.jpg"
+              alt="Work 2"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/pic 3.jpg"
+              alt="Work 3"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/pic 4.jpg"
+              alt="Work 4"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/pic 5.jpg"
+              alt="Work 5"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/pic 6.jpg"
+              alt="Work 6"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/Photography/photo 1.jpg"
+              alt="Photography 1"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/Photography/photo 2.jpg"
+              alt="Photography 2"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/Photography/photo 3.jpg"
+              alt="Photography 3"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/Photography/photo 4.jpg"
+              alt="Photography 4"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/Photography/photo 5.jpg"
+              alt="Photography 5"
+            />
+          </div>
+          <div class="slide-picture">
+            <img
+              src="/Personal Website/Image/Portofolio/Photography/photo 6.jpg"
+              alt="Photography 6"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <div class="input-field">
+            <input type="text" placeholder="Full Name" required />
+            <span class="focus"></span>
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Email Address" required />
+            <span class="focus"></span>
+          </div>
+        </div>
+
+        <div class="input-box">
+          <div class="input-field">
+            <input type="number" placeholder="Mobile Number" required />
+            <span class="focus"></span>
+          </div>
+          <div class="input-field">
+            <input type="text" placeholder="Email Subject" required />
+            <span class="focus"></span>
+          </div>
+        </div>
+        <div class="textarea-field">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <span class="focus"></span>
+        </div>
+
+        <div class="btn-box btns">
+          <button type="submit" class="btn">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Steven | All Rights Reserved</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
