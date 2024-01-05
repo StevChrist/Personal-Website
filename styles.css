@@ -904,12 +904,6 @@ img:hover{
   }
 }
 
-@media (max-width: 768px) {
-  .slider .slide,
-  .slider2 .slide-picture {
-    flex: 0 0 33.33%;
-  }
-}
 
 /* end */
 
